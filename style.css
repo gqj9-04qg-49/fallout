@@ -1,0 +1,53 @@
+
+
+body {
+    background-image: url(./Фаллаут\ Нью\ Вегас.jpg);
+    padding: 50px;
+    color: rgb(220, 220, 220);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: topcenter;
+}
+
+a {
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+a:hover{
+ 
+}
+
+.im {
+    border-radius: 100px;
+    width: 100px;
+}
+
+.cart {
+    background-color: rgb(53, 53, 53);
+    max-width: 900px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+.t{
+   background-color: green;
+}
+
+.grid-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
